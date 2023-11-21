@@ -5,7 +5,9 @@
   "engines": {
     "node": ">=14.17.0"
   },
-  "files": ["lib/*.js"],
+  "files": [
+    "lib/*.js"
+  ],
   "license": "MIT",
   "main": "lib/main.js",
   "name": "cloudinary-purge",
@@ -16,7 +18,13 @@
     "lint:fix": "./scripts/lint-fix",
     "release": "./scripts/release",
     "test": "./scripts/test",
-    "test:watch": "./scripts/test-watch"
+    "test:watch": "./scripts/test-watch",
+    "run": "node ./scripts/run.js"
   },
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "dependencies": {
+    "cloudinary": "1.41.0",
+    "firost": "2.17.0",
+    "golgoth": "2.1.0"
+  }
 }
