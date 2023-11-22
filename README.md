@@ -11,6 +11,9 @@ This repository contains the code I used to purge my whole Cloudinary account
 from any image stored, forcing it to re-download them (I had in the meantime
 updated and compressed the images).
 
+Note: Cloudinary also provides a "Bulk Delete" page in your account page, that
+can do pretty much the same thing.
+
 To use:
 - Define ENV variables in a `.envrc` file
   - `CLOUDINARY_CLOUD_NAME`
