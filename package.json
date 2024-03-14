@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "aberlaas": "1.25.1"
+    "aberlaas": "2.5.0"
   },
   "engines": {
     "node": ">=14.17.0"
@@ -24,7 +24,7 @@
   "version": "0.0.1",
   "dependencies": {
     "cloudinary": "1.41.0",
-    "firost": "2.17.0",
+    "firost": "3.5.0",
     "golgoth": "2.1.0"
   }
 }
